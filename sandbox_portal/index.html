@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexus Billing - Live Automation Tracking Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo-section">
+            <h1>Nexus Billing Dashboard</h1>
+            <p>Live Automation Tracking & Execution Monitoring</p>
+        </div>
+        <div class="status-badge" id="global-status">
+            <div class="indicator"></div>
+            <span id="status-text">Idle - Waiting for Run</span>
+        </div>
+    </header>
+
+    <div class="dashboard-grid">
+        
+        <!-- Left Sidebar: Run Details -->
+        <aside class="execution-details glass-panel">
+            <h2>Current Run</h2>
+            <hr style="border: 0; border-top: 1px solid rgba(255,255,255,0.1); margin: 1rem 0;">
+            
+            <div class="detail-block">
+                <h3>Target Portal</h3>
+                <div class="detail-value" id="current-vendor">None</div>
+            </div>
+            
+            <div class="detail-block">
+                <h3>Start Time</h3>
+                <div class="detail-value" id="start-time">--:--:--</div>
+            </div>
+
+            <div class="current-step-box">
+                <div class="step-label">LIVE EXECUTION STEP</div>
+                <div class="step-content" id="current-step">Waiting for orchestrator to start...</div>
+            </div>
+        </aside>
+
+        <!-- Right Content: Stats & Table -->
+        <main>
+            <div class="stats-row">
+                <div class="stat-card glass-panel">
+                    <h3>Invoices Extracted</h3>
+                    <div class="value" id="stat-processed">0</div>
+                </div>
+                <div class="stat-card glass-panel">
+                    <h3>Total Amount Extracted</h3>
+                    <div class="value" id="stat-amount">$0.00</div>
+                </div>
+                <div class="stat-card glass-panel">
+                    <h3>Validation Success</h3>
+                    <div class="value" id="stat-success">100%</div>
+                </div>
+            </div>
+
+            <div class="invoices-container">
+                <div class="table-header">
+                    <h2>Extracted Invoices</h2>
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Invoice #</th>
+                            <th>Run ID</th>
+                            <th>Date</th>
+                            <th>Vendor</th>
+                            <th style="text-align: right;">Amount</th>
+                            <th>Run Time</th>
+                            <th>Status</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody id="invoice-table-body">
+                        <!-- Dynamic content will be injected here -->
+                    </tbody>
+                </table>
+                <div id="empty-state" class="empty-state">
+                    No invoices extracted yet in this run.
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

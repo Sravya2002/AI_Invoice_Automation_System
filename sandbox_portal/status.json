@@ -1,0 +1,214 @@
+{
+  "current_run": {
+    "status": "Failed",
+    "vendor": "Vendor_A",
+    "step": "Finished. Navigation failed: Max retries reached. Last error: Navigation failed: No invoices found on the portal page",
+    "start_time": "2026-05-08T20:23:39.949967"
+  },
+  "stats": {
+    "total_processed": 19,
+    "total_amount": 19.5,
+    "success_rate": 26
+  },
+  "invoices": [
+    {
+      "id": "ERROR",
+      "date": "N/A",
+      "amount": 0.0,
+      "currency": "N/A",
+      "vendor": "Vendor_A",
+      "status": "failed",
+      "run_time": "2026-05-08T20:23:39.949967",
+      "run_id": "d43d86440e0d"
+    },
+    {
+      "id": "ERROR",
+      "date": "N/A",
+      "amount": 0.0,
+      "currency": "N/A",
+      "vendor": "Dolibarr_Demo",
+      "status": "failed",
+      "run_time": "2026-05-08T20:21:18.312794",
+      "run_id": "d50197f7221f"
+    },
+    {
+      "id": "ERROR",
+      "date": "N/A",
+      "amount": 0.0,
+      "currency": "N/A",
+      "vendor": "Dolibarr_Demo",
+      "status": "failed",
+      "run_time": "2026-05-08T20:19:19.743842",
+      "run_id": "a06342fa33bd"
+    },
+    {
+      "id": "PROV4431",
+      "date": "2026-05-08",
+      "amount": 0.0,
+      "currency": "EUR",
+      "vendor": "Dolibarr_Demo",
+      "status": "failed",
+      "run_time": "2026-05-08T00:06:44.100427",
+      "run_id": "aa99aab3ae63",
+      "download_url": "extracted_invoices/20260508_000744_invoice_PROV4431.pdf"
+    },
+    {
+      "id": "PROV4431",
+      "date": "2026-05-08",
+      "amount": 0.0,
+      "currency": "EUR",
+      "vendor": "Dolibarr_Demo",
+      "status": "failed",
+      "run_time": "2026-05-08T00:03:06.589846",
+      "run_id": "ab36386cdf60",
+      "download_url": "extracted_invoices/20260508_000413_invoice_PROV4431.pdf"
+    },
+    {
+      "id": "PROV4431",
+      "date": "2026-05-08",
+      "amount": 0.0,
+      "currency": "EUR",
+      "vendor": "Dolibarr_Demo",
+      "status": "failed",
+      "run_time": "2026-05-07T23:59:07.237836",
+      "run_id": "047e6de4b00e",
+      "download_url": "extracted_invoices/20260508_000011_invoice_PROV4431.pdf"
+    },
+    {
+      "id": "PROV4431",
+      "date": "2026-05-07",
+      "amount": 0.0,
+      "currency": "EUR",
+      "vendor": "Dolibarr_Demo",
+      "status": "failed",
+      "run_time": "2026-05-07T23:28:14.172429",
+      "run_id": "89261fa73b63",
+      "download_url": "extracted_invoices/20260507_232909_invoice_PROV4431.pdf"
+    },
+    {
+      "id": "PROV4431",
+      "date": "2026-05-07",
+      "amount": 0.0,
+      "currency": "EUR",
+      "vendor": "Dolibarr_Demo",
+      "status": "failed",
+      "run_time": "2026-05-07T23:24:33.816513",
+      "run_id": "5918d8540054",
+      "download_url": "extracted_invoices/20260507_232524_invoice_PROV4431.pdf"
+    },
+    {
+      "id": "PROV4431",
+      "date": "2026-05-07",
+      "amount": 0.0,
+      "currency": "EUR",
+      "vendor": "Dolibarr_Demo",
+      "status": "failed",
+      "run_time": "2026-05-07T23:22:19.564521",
+      "run_id": "91aa1c68f071",
+      "download_url": "extracted_invoices/20260507_232321_invoice_PROV4431.pdf"
+    },
+    {
+      "id": "PROV4431",
+      "date": "2026-05-07",
+      "amount": 0.0,
+      "currency": "EUR",
+      "vendor": "Dolibarr_Demo",
+      "status": "failed",
+      "run_time": "2026-05-07T20:26:35.523552",
+      "run_id": "d75f8c0249a1",
+      "download_url": "extracted_invoices/20260507_202735_invoice_PROV4431.pdf"
+    },
+    {
+      "id": "PROV4431",
+      "date": "2026-05-07",
+      "amount": 0.0,
+      "currency": "EUR",
+      "vendor": "Dolibarr_Demo",
+      "status": "failed",
+      "run_time": "2026-05-07T20:20:13.580118",
+      "run_id": "dac6d4b2ebf7",
+      "download_url": "extracted_invoices/20260507_202119_invoice_PROV4431.pdf"
+    },
+    {
+      "id": "ERROR",
+      "date": "N/A",
+      "amount": 0.0,
+      "currency": "N/A",
+      "vendor": "Vendor_B",
+      "status": "failed",
+      "run_time": "2026-05-07T20:18:45.725008",
+      "run_id": "c1ee6b1fa7c7"
+    },
+    {
+      "id": "ERROR",
+      "date": "N/A",
+      "amount": 0.0,
+      "currency": "N/A",
+      "vendor": "Vendor_B",
+      "status": "failed",
+      "run_time": "2026-05-01T12:04:45.191252",
+      "run_id": "7ab0ce2b3c2c"
+    },
+    {
+      "id": "ERROR",
+      "date": "N/A",
+      "amount": 0.0,
+      "currency": "N/A",
+      "vendor": "Vendor_B",
+      "status": "failed",
+      "run_time": "2026-04-30T15:31:10.374444",
+      "run_id": "3bdce3fb9dc2"
+    },
+    {
+      "id": "FA0007",
+      "date": "2026-04-30",
+      "amount": 3.9,
+      "currency": "USD",
+      "vendor": "Vendor_A",
+      "status": "success",
+      "run_time": "2026-04-30T12:43:37.736215",
+      "run_id": "85868edcc44f",
+      "download_url": "extracted_invoices/20260430_124404_invoice_FA0007.pdf"
+    },
+    {
+      "id": "FA0007",
+      "date": "2026-04-30",
+      "amount": 3.9,
+      "currency": "USD",
+      "vendor": "Vendor_A",
+      "status": "success",
+      "run_time": "2026-04-30T12:41:02.682899",
+      "run_id": "0e3c7591a5d2",
+      "download_url": "extracted_invoices/20260430_124131_invoice_FA0007.pdf"
+    },
+    {
+      "id": "FA0007",
+      "date": "2026-04-30",
+      "amount": 3.9,
+      "currency": "USD",
+      "vendor": "Vendor_A",
+      "status": "success",
+      "run_time": "2026-04-30T12:30:02.326513",
+      "run_id": "c77f4de447f9",
+      "download_url": "extracted_invoices/20260430_123030_invoice_FA0007.pdf"
+    },
+    {
+      "id": "FA0007",
+      "date": "2026-04-30",
+      "amount": 3.9,
+      "currency": "USD",
+      "vendor": "Vendor_A",
+      "status": "success",
+      "run_time": "2026-04-30T12:20:45.051008",
+      "download_url": "extracted_invoices/20260430_122110_invoice_FA0007.pdf"
+    },
+    {
+      "id": "FA0007",
+      "date": "2026-04-30",
+      "amount": 3.9,
+      "currency": "USD",
+      "vendor": "Vendor_A",
+      "status": "success"
+    }
+  ]
+}

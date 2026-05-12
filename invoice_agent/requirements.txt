@@ -1,0 +1,17 @@
+# Invoice Portal Automation Agent - Requirements
+
+# Browser automation (real UI)
+playwright>=1.40.0
+
+# PDF text extraction
+pdfplumber>=0.9.0
+azure-ai-formrecognizer>=3.3.0
+
+# Optional: For data validation
+# pydantic>=2.0.0
+
+# AI and LLM
+langchain>=0.1.0
+langchain-openai>=0.0.5
+openai>=1.10.0
+nest-asyncio>=1.5.0

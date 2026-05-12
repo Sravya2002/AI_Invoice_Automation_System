@@ -1,0 +1,16 @@
+# Runtime artifacts — never commit these
+run/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Environment
+.env
+*.env
+
+sandbox_portal/extracted_invoices/
+
+invoice_agent/docs/
